@@ -18,6 +18,8 @@
 		<string>Added</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/638CE572-5F67-474A-99B7-1C079023D64F.playgroundpage/main.swift</key>
 		<string>Modified</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/6D260D1B-C3B1-4ED3-ABC1-F264AA169247.playgroundpage/UserManifest.plist</key>
+		<string>Added</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist</key>
 		<string>Added</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</key>
@@ -25,6 +27,10 @@
 		<key>Chapters/Chapter1.playgroundchapter/UserManifest.plist</key>
 		<string>Added</string>
 		<key>UserModules/AccessibiltyViewController.playgroundmodule/Sources/AccessibilityViewController.swift</key>
+		<string>Added</string>
+		<key>UserModules/Conclusion.playgroundmodule/Sources/Conclusion.swift</key>
+		<string>Added</string>
+		<key>UserModules/DarkMode.playgroundmodule/Sources/DarKModeButton.swift</key>
 		<string>Added</string>
 		<key>UserModules/DarkMode.playgroundmodule/Sources/DarkMode.swift</key>
 		<string>Added</string>

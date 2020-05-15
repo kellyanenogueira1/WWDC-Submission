@@ -2,39 +2,56 @@
 import UIKit
 
 public class EnlargeTextViewController: UIViewController {
-    
     var textExample = UITextView()
     var buttonCustomButton = CustomButton()
-    //var imageButton = UIImageView()
-    
+    var size = 0
     
     override public func loadView() {
         let myView = UIView()
         self.view = myView
-        let category: UIContentSizeCategory =  .accessibilityExtraExtraExtraLarge
+        //let category = UIContentSizeCategory =  .accessibilityExtraExtraExtraLarge
 
         myView.backgroundColor = #colorLiteral(red: 0.9764705882352941, green: 0.8509803921568627, blue: 0.5490196078431373, alpha: 1.0)
-        
+        addActionMax()
         myView.addSubview(textExample)
-        myView.addSubview(buttonCustomButton)
         customText(textExample)
         setupButtonConstraints()
         
+    }
+
+    func sizeText()->UIContentSizeCategory{
+        switch size {
+        case 1:
+            return .accessibilityLarge
+        case 2:
+            return .accessibilityExtraLarge
+        case 3:
+            return .accessibilityExtraExtraLarge
+        default:
+            //size = 0
+         return .accessibilityExtraExtraExtraLarge
+        }
+    }
+    @objc func change() {
+        size += 1
+        var category = sizeText()
         textExample.font = UIFont.systemFont(ofSize: category.scale*5)
     }
     
+    func addActionMax(){
+        buttonCustomButton.addTarget(self, action: #selector(change), for: .touchUpInside)
+    }
     func setupButtonConstraints(){
+        view.addSubview(buttonCustomButton)
         buttonCustomButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            buttonCustomButton.widthAnchor.constraint(equalToConstant: 200),
-            buttonCustomButton.heightAnchor.constraint(equalToConstant: 100),
+            buttonCustomButton.widthAnchor.constraint(equalToConstant: 50),
+            buttonCustomButton.heightAnchor.constraint(equalToConstant: 50),
             buttonCustomButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -100),
             buttonCustomButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
         ])
-        buttonCustomButton.backgroundColor = .black
-        //imageButton.image = #imageLiteral(resourceName: "button.png")
-        //buttonCustomButton.setImage(#imageLiteral(resourceName: "button.png"), for: .normal)
-        buttonCustomButton.setTitle("Maximize", for: .normal)
+        buttonCustomButton.backgroundColor = .white
+        buttonCustomButton.setImage(#imageLiteral(resourceName: "lupa.png"), for: .normal)
     }
     
     func customText(_ textCustom: UITextView){
