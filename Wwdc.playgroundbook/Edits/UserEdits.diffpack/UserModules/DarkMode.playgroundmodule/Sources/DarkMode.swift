@@ -1,7 +1,6 @@
-// Code inside modules can be shared between pages and other source files.
-import UIKit
+import  UIKit
 
-public class AccessibilityViewController : UIViewController {
+public class DarkMode : UIViewController {
     override public func loadView() {
         let view = UIView()
         self.view = view
@@ -10,5 +9,3 @@ public class AccessibilityViewController : UIViewController {
         
     }
 }
-
-

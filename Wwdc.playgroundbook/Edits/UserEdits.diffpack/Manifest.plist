@@ -10,6 +10,10 @@
 	<string>PlaygroundBookUserEdit</string>
 	<key>Diffs</key>
 	<dict>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/144E62F2-71DC-4EEB-BEDF-773EC08C5727.playgroundpage/UserManifest.plist</key>
+		<string>Added</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/144E62F2-71DC-4EEB-BEDF-773EC08C5727.playgroundpage/main.swift</key>
+		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/638CE572-5F67-474A-99B7-1C079023D64F.playgroundpage/UserManifest.plist</key>
 		<string>Added</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/638CE572-5F67-474A-99B7-1C079023D64F.playgroundpage/main.swift</key>
@@ -21,6 +25,8 @@
 		<key>Chapters/Chapter1.playgroundchapter/UserManifest.plist</key>
 		<string>Added</string>
 		<key>UserModules/AccessibiltyViewController.playgroundmodule/Sources/AccessibilityViewController.swift</key>
+		<string>Added</string>
+		<key>UserModules/DarkMode.playgroundmodule/Sources/DarkMode.swift</key>
 		<string>Added</string>
 		<key>UserModules/EnlargeTextViewController.playgroundmodule/Sources/CustomButton.swift</key>
 		<string>Added</string>

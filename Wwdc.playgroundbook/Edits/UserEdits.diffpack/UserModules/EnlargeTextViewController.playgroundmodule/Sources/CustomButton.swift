@@ -12,8 +12,8 @@ public class CustomButton: UIButton{
     func setupButton(){
         setShadow()
         setTitleColor(.white, for: .normal)
-        backgroundColor = #colorLiteral(red: 0.4392156862745098, green: 0.011764705882352941, blue: 0.19215686274509805, alpha: 1.0)
-        titleLabel?.font = UIFont(name: "AvenirNext-DemiBold", size: 18)
+        backgroundColor = .black
+        titleLabel?.font = UIFont(name: "SF Compact Rounded", size: 17)
         layer.cornerRadius = 25
         layer.borderWidth = 3.0
         layer.borderColor = UIColor.darkGray.cgColor
