@@ -18,6 +18,8 @@
 		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/DarkMode.playgroundpage/ResultInfo.plist</key>
 		<string>Added</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</key>
+		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/UserManifest.plist</key>
 		<string>Added</string>
 		<key>UserModules/AccessibiltyViewController.playgroundmodule/Sources/AccessibilityViewController.swift</key>
