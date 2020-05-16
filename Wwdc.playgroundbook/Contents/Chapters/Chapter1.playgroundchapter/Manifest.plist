@@ -6,9 +6,16 @@
 	<string>My Playground</string>
 	<key>TemplatePageFilename</key>
 	<string>Template.playgroundpage</string>
+	<key>Pages</key>
+	<array>
+		<string>Accessibility.playgroundpage</string>
+		<string>DarkMode.playgroundpage</string>
+		<string>Conclusion.playgroundpage</string>
+		<string>Template.playgroundpage</string>
+	</array>
 	<key>InitialUserPages</key>
 	<array>
-		<string>My Playground.playgroundpage</string>
+		<string>Accessibility.playgroundpage</string>
 	</array>
 </dict>
 </plist>
