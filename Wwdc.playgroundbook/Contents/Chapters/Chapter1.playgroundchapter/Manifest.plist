@@ -4,11 +4,12 @@
 <dict>
 	<key>Name</key>
 	<string>My Playground</string>
-	<key>TemplatePageFilename</key>
-	<string>Template.playgroundpage</string>
-	<key>InitialUserPages</key>
+	<key>Pages</key>
 	<array>
-		<string>My Playground.playgroundpage</string>
+		<string>Pagina01.playgroundpage</string>
+		<string>Pagina02.playgroundpage</string>
+		<string>Pagina03.playgroundpage</string>
+		<string>Pagina04.playgroundpage</string>
 	</array>
 </dict>
 </plist>

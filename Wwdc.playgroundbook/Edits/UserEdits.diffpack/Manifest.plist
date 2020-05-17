@@ -10,22 +10,6 @@
 	<string>PlaygroundBookUserEdit</string>
 	<key>Diffs</key>
 	<dict>
-		<key>Chapters/Chapter1.playgroundchapter/Pages/144E62F2-71DC-4EEB-BEDF-773EC08C5727.playgroundpage/UserManifest.plist</key>
-		<string>Added</string>
-		<key>Chapters/Chapter1.playgroundchapter/Pages/144E62F2-71DC-4EEB-BEDF-773EC08C5727.playgroundpage/main.swift</key>
-		<string>Modified</string>
-		<key>Chapters/Chapter1.playgroundchapter/Pages/638CE572-5F67-474A-99B7-1C079023D64F.playgroundpage/UserManifest.plist</key>
-		<string>Added</string>
-		<key>Chapters/Chapter1.playgroundchapter/Pages/638CE572-5F67-474A-99B7-1C079023D64F.playgroundpage/main.swift</key>
-		<string>Modified</string>
-		<key>Chapters/Chapter1.playgroundchapter/Pages/6D260D1B-C3B1-4ED3-ABC1-F264AA169247.playgroundpage/UserManifest.plist</key>
-		<string>Added</string>
-		<key>Chapters/Chapter1.playgroundchapter/Pages/6D260D1B-C3B1-4ED3-ABC1-F264AA169247.playgroundpage/main.swift</key>
-		<string>Modified</string>
-		<key>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist</key>
-		<string>Added</string>
-		<key>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</key>
-		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/UserManifest.plist</key>
 		<string>Added</string>
 		<key>UserModules/AccessibiltyViewController.playgroundmodule/Sources/AccessibilityViewController.swift</key>
