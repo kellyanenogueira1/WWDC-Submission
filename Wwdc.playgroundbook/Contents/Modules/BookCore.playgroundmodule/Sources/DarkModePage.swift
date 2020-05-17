@@ -3,7 +3,7 @@ import  UIKit
 public class DarkMode : UIViewController {
     var informations = UITextView()
     var imageDarkMode  = UIImageView()
-    var buttonDarkMode = DarkModeButton()
+    var buttonDarkMode = CustomButton()
     var count = 0
     
     override public func loadView() {
