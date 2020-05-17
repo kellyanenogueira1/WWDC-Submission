@@ -8,9 +8,11 @@
 	<array>
 		<dict>
 			<key>ModifiedContent</key>
-			<string>//#hidden-code import PlaygroundSupport
+			<string>//#hidden-code 
+				import PlaygroundSupport
 
-PlaygroundPage.current.liveView = Conclusion() //#-end-hidden-code
+PlaygroundPage.current.liveView = Conclusion() 
+				//#-end-hidden-code
 </string>
 			<key>ModifiedRange</key>
 			<string>{1, 73}</string>
