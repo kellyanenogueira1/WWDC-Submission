@@ -21,6 +21,6 @@
 	<key>UserAutoImportedAuxiliaryModules</key>
 	<array/>
 	<key>UserModuleMode</key>
-	<string>Full</string>
+	<string>Disabled</string>
 </dict>
 </plist>

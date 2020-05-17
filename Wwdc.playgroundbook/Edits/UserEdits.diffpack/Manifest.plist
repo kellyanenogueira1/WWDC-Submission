@@ -10,19 +10,11 @@
 	<string>PlaygroundBookUserEdit</string>
 	<key>Diffs</key>
 	<dict>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/Pagina01.playgroundpage/main.swift</key>
+		<string>Modified</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/Pagina04.playgroundpage/main.swift</key>
+		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/UserManifest.plist</key>
-		<string>Added</string>
-		<key>UserModules/AccessibiltyViewController.playgroundmodule/Sources/AccessibilityViewController.swift</key>
-		<string>Added</string>
-		<key>UserModules/Conclusion.playgroundmodule/Sources/Conclusion.swift</key>
-		<string>Added</string>
-		<key>UserModules/DarkMode.playgroundmodule/Sources/DarKModeButton.swift</key>
-		<string>Added</string>
-		<key>UserModules/DarkMode.playgroundmodule/Sources/DarkMode.swift</key>
-		<string>Added</string>
-		<key>UserModules/EnlargeTextViewController.playgroundmodule/Sources/CustomButton.swift</key>
-		<string>Added</string>
-		<key>UserModules/EnlargeTextViewController.playgroundmodule/Sources/EnlargeTextViewController.swift</key>
 		<string>Added</string>
 		<key>UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift</key>
 		<string>Removed</string>
