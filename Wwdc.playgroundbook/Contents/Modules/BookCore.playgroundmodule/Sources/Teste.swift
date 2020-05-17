@@ -21,7 +21,7 @@ public class AccessibilityViewController : UIViewController {
         NSLayoutConstraint.activate([
             imageAnimation.widthAnchor.constraint(equalToConstant: 400),
             imageAnimation.heightAnchor.constraint(equalToConstant: 300),
-            imageAnimation.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -100),
+            imageAnimation.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -250),
             imageAnimation.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
         ])
     }
