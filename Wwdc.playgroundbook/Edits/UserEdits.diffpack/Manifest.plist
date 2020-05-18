@@ -15,22 +15,22 @@
 	<key>Updates</key>
 	<dict>
 		<key>Added</key>
-		<array/>
-		<key>Modified</key>
 		<array>
 			<dict>
-				<key>Diff</key>
-				<string>Chapters/Chapter1.playgroundchapter/Pages/Pagina01.playgroundpage/main.swift.delta</string>
 				<key>File</key>
-				<string>Chapters/Chapter1.playgroundchapter/Pages/Pagina01.playgroundpage/main.swift</string>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/Pagina01.playgroundpage/ResultInfo.plist</string>
 			</dict>
 			<dict>
-				<key>Diff</key>
-				<string>Chapters/Chapter1.playgroundchapter/Pages/Pagina04.playgroundpage/main.swift.delta</string>
 				<key>File</key>
-				<string>Chapters/Chapter1.playgroundchapter/Pages/Pagina04.playgroundpage/main.swift</string>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/Pagina02.playgroundpage/ResultInfo.plist</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/Pagina03.playgroundpage/ResultInfo.plist</string>
 			</dict>
 		</array>
+		<key>Modified</key>
+		<array/>
 		<key>Removed</key>
 		<array/>
 		<key>Replaced</key>

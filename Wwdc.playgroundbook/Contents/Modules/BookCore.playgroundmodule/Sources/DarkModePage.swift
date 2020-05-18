@@ -1,5 +1,5 @@
 import  UIKit
-
+import PlaygroundSupport
 public class DarkMode : UIViewController {
     var informations = UITextView()
     var imageDarkMode  = UIImageView()
@@ -69,6 +69,7 @@ public class DarkMode : UIViewController {
         count += 1
         if count == 1{
             formattingViewDarkMode()
+            PlaygroundPage.current.assessmentStatus = .pass(message: "Wow, very well! Isn't it amazing? [Conclusion](@next)")
         }else if count == 2{
             formattingView()
         }else{

@@ -1,5 +1,6 @@
 
 import UIKit
+import PlaygroundSupport
 
 public class EnlargeTextViewController: UIViewController {
     var textExample = UITextView()
@@ -28,7 +29,7 @@ public class EnlargeTextViewController: UIViewController {
         case 3:
             return .accessibilityExtraExtraLarge
         default:
-            //size = 0
+         PlaygroundPage.current.assessmentStatus = .pass(message: "Very well! This is getting interesting. Go ahead [Dark Mode](@next)")
          return .accessibilityExtraExtraExtraLarge
         }
     }
@@ -59,7 +60,7 @@ public class EnlargeTextViewController: UIViewController {
         textCustom.isEditable = false
         textCustom.isSelectable = false
         textCustom.textAlignment = NSTextAlignment.center
-        //textCustom.layer.cornerRadius = 10
+        textCustom.font = UIFont.systemFont(ofSize: 8)
         textCustom.backgroundColor = #colorLiteral(red: 0.9764705882352941, green: 0.8509803921568627, blue: 0.5490196078431373, alpha: 1.0)
         textCustom.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         textCustom.textColor = .black
